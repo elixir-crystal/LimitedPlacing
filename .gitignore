@@ -1,0 +1,28 @@
+# Output
+bin/
+target/
+out/
+
+# IDEA
+**/*.iml
+.idea/
+
+# VSC
+.vscode/
+
+# Metals
+.metals/
+.bloop/
+.bsp/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+dependency-reduced-pom.xml
+
+# Leiningen
+.lein-*
+.nrepl-port

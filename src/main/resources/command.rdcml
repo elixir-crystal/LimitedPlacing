@@ -1,0 +1,24 @@
+limitedplace,lmtp {
+
+    permission limitedplacing.cmd
+
+    open {
+        permission limitedplacing.cmd.open
+        help Open the warning menu.
+        user player
+        hook open
+    }
+
+    openfor string:player {
+        permission limitedplacing.cmd.openfor
+        help Open the warning menu for a specific player.
+        hook openfor
+    }
+
+    reload {
+        permission limitedplacing.cmd.reload
+        help Reload configuration.
+        hook reload
+    }
+
+}

@@ -1,0 +1,10 @@
+name: LimitedPlacing
+
+author: Freeze_Dolphin
+
+main: io.elixir_crystal.limited_placing.PlugGividado
+version: ${project.version}
+
+depend:
+  - RedLib
+  - LuckPerms
